@@ -14,7 +14,7 @@ RUN apt-get install -y nodejs \
 RUN apt-get install -y ruby-full
 
 # Install git
-RUN apt-get install git
+RUN apt-get install -y git
 
 # Install Jekyll
 RUN npm install -g bower \
