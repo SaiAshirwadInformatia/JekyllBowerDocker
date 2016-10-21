@@ -8,7 +8,7 @@ RUN apt-get update -y
 # Install nodejs & npm
 RUN apt-get install -y nodejs \
 	&& apt-get install -y npm \
-	&& ln -s /usr/bin/nodejs /usr/bin/node \
+	&& ln -s /usr/bin/nodejs /usr/bin/node
 
 # Install ruby
 RUN apt-get install -y ruby-full
