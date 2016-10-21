@@ -21,4 +21,5 @@ RUN npm install -g bower \
 	&& gem install jekyll \
 	&& gem install bundler \
 	&& gem install jekyll-bower
-	
+
+CMD ["jekyll", "bundler", "bower"]
