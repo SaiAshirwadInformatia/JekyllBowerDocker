@@ -3,7 +3,7 @@ FROM ubuntu:latest
 MAINTAINER Rohan Sakhale <rs@saiashirwad.com>
 
 # Update the repository
-RUN apt-get update -y
+RUN apt-get update -y && apt-get install -y wget
 
 # Install nodejs & npm
 RUN apt-get install -y nodejs \
